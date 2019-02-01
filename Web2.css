@@ -1,0 +1,208 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+*{
+  box-sizing: border-box;
+}
+[class*="col-"] {float: left; padding: 15px; width: 100%; }
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets */
+  .col-s-1{width: 8.33%;}
+  .col-s-2{width: 16.66%;}
+  .col-s-3{width: 25%;}
+  .col-s-4{width: 33.33%;}
+  .col-s-5{width: 41.66%;}
+  .col-s-6{width: 50%;}
+  .col-s-7{width: 58.33%;}
+  .col-s-8{width: 66.66%;}
+  .col-s-9{width: 75%;}
+  .col-s-10{width: 83.33%;}
+  .col-s-11{width: 91.66%;}
+  .col-s-12{width: 100%;}
+}
+@media only screen and (min-width: 600px) {
+  /* For desktop */
+  .col-1{width: 8.33%;}
+  .col-2{width: 16.66%;}
+  .col-3{width: 25%;}
+  .col-4{width: 33.33%;}
+  .col-5{width: 41.66%;}
+  .col-6{width: 50%;}
+  .col-7{width: 58.33%;}
+  .col-8{width: 66.66%;}
+  .col-9{width: 75%;}
+  .col-10{width: 83.33%;}
+  .col-11{width: 91.66%;}
+  .col-12{width: 100%;}
+}
+.header{
+  padding: 0;
+  height: 50px;
+  background: green;
+}
+.header ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: green;
+}
+.header ul li{
+  float: right;
+  height: 100%;
+}
+.header ul li a{
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+.header li:hover{
+  background-color: black;
+  color: green;
+}
+.header .logo{
+  height: 100%;
+  background: url("Logo 02.png") green no-repeat center;
+  background-size: auto 50px;
+}
+.content{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background: url(18_Lampu-Dekoratif-memperindah-bundaran-kecamatan-taman-kota-madiun.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.isicontent{
+  background-position: center;
+  background: black;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.7;
+  text-align: center;
+}
+.foto{
+  width: 100%;
+  height: auto;
+  background-position: center;
+}
+.foto img{
+  width: 50%;
+  height: auto;
+  padding-top: 16%;
+}
+.kata span{
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+.contentmakanan{
+  width: 100%;
+  height: 100vh;
+}
+.lol2{
+  font-size: 29px;
+  font-weight: bold;
+}
+.gambar{
+  border: 1px solid black;
+  letter-spacing: 2px;
+  background: green;
+  width: 100%;
+  height: auto;
+}
+.background2{
+  width: 100%;
+  height: 100vh;
+}
+.lol1{
+  margin: 0;
+  padding: 0;
+  background: url(1_aerial-shot-kantor-balaikota-madiun-Senin-01-01-2018.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+.foto1{
+  width: 100%;
+  height: auto;
+  background-position: center;
+}
+.foto1 img{
+  padding-top: 10%;
+  width: 30%;
+  height: auto;
+}
+.kata-kata{
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background: black;
+  background-size: cover;
+  opacity: 0.8;
+}
+.kata-kata img{
+  padding-top: 40px;
+  padding-left: 30%;
+}
+.d{
+  width: 100%;
+  height: 100vh;
+  float: left;
+}
+.d2{
+  width: 100%;
+  height: 167vh;
+  background: green;
+}
+.footer{
+  width: 100%;
+  height: 38vh;
+  float: left;
+}
+.u{
+  position: relative;
+  width: 100%;
+  height: 30vh;
+  background: #4E4A4A;
+}
+.budaya{
+  width: 100%;
+  height: 100vh;
+  float: left;
+}
+.budaya1{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background: url(WSH_332.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.o2{
+  width: 100%;
+  height: 100vh;
+  background: url("logo 03.png");
+  opacity: 0.6;
+  background-position: center;
+}
+@media screen and (max-widht: 1920px){
+  .w{
+    padding-left: 30px;
+  }
+}
